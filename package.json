@@ -2,7 +2,11 @@
   "name": "playwright-plus-cucumber",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {"cucumber": "cucumber-js --config config/cucumber.js"},
+  "scripts": {
+    "cucumber": "cucumber-js --config config/cucumber.js",
+    "test": "npm run cucumber",
+    "test:headless": "cucumber-js --config config/cucumber.js --require src/config/headless.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

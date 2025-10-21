@@ -15,11 +15,11 @@
             "line": 5,
             "name": "Web browser is at the Intradyn home page",
             "match": {
-              "location": "src\\tests\\step-definitions\\login.ts:7"
+              "location": "src\\tests\\step-definitions\\login.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 2836470799
+              "duration": 3052314000
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 6,
             "name": "User clicks on \"Request a Quote\" button",
             "match": {
-              "location": "src\\tests\\step-definitions\\login.ts:17"
+              "location": "src\\tests\\step-definitions\\login.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 38700799
+              "duration": 387868599
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 7,
             "name": "User sees \"Request a Custom Quote\" text",
             "match": {
-              "location": "src\\tests\\step-definitions\\login.ts:24"
+              "location": "src\\tests\\step-definitions\\login.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 345607300
+              "duration": 9241399
             }
           }
         ],
