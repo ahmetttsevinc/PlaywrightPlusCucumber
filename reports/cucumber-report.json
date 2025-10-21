@@ -1,51 +1,91 @@
 [
   {
-    "description": "     Feature Login page will work depending on the user credentials.",
+    "description": "     This feature file validates About Company functionality",
     "elements": [
       {
         "description": "",
-        "id": "login;sucess-login",
+        "id": "about-company;about-company",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "Sucess Login",
+        "line": 3,
+        "name": "About Company",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 4,
             "name": "Web browser is at the Intradyn home page",
             "match": {
-              "location": "src\\tests\\step-definitions\\login.ts:11"
+              "location": "src\\tests\\step-definitions\\common-actions.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 3052314000
+              "duration": 3364273500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "User clicks on \"Request a Quote\" button",
+            "line": 5,
+            "name": "User hovers over \"Why Intradyn\" link",
             "match": {
-              "location": "src\\tests\\step-definitions\\login.ts:18"
+              "location": "src\\tests\\step-definitions\\common-actions.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 387868599
+              "duration": 146055000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "User sees \"Request a Custom Quote\" text",
+            "line": 6,
+            "name": "User sees \"Company\" link",
             "match": {
-              "location": "src\\tests\\step-definitions\\login.ts:28"
+              "location": "src\\tests\\step-definitions\\common-actions.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 9241399
+              "duration": 10968600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on \"Company\" link",
+            "match": {
+              "location": "src\\tests\\step-definitions\\common-actions.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134473399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User sees \"About Company\" text",
+            "match": {
+              "location": "src\\tests\\step-definitions\\about-company.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5007625499,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\ahmet\\Desktop\\Code\\PlaywrightPlusCucumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:608:17)\n    at processTimers (node:internal/timers:543:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Browser is closed",
+            "match": {
+              "location": "src\\tests\\step-definitions\\common-actions.ts:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -53,11 +93,85 @@
         "type": "scenario"
       }
     ],
-    "id": "login",
+    "id": "about-company",
     "line": 1,
     "keyword": "Feature",
-    "name": "Login",
+    "name": "About Company",
     "tags": [],
-    "uri": "src\\tests\\features\\login.feature"
+    "uri": "src\\tests\\features\\about-company.feature"
+  },
+  {
+    "description": "     This feature file validates Request a Quote functionality",
+    "elements": [
+      {
+        "description": "",
+        "id": "request-a-quote;request-a-quote",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Request a Quote",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Web browser is at the Intradyn home page",
+            "match": {
+              "location": "src\\tests\\step-definitions\\common-actions.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3526498000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on \"Request a Quote\" button",
+            "match": {
+              "location": "src\\tests\\step-definitions\\request-quote.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343907699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User sees \"Request a Custom Quote\" text",
+            "match": {
+              "location": "src\\tests\\step-definitions\\request-quote.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3725300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Browser is closed",
+            "match": {
+              "location": "src\\tests\\step-definitions\\common-actions.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188399900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "request-a-quote",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Request a Quote",
+    "tags": [],
+    "uri": "src\\tests\\features\\request-quote.feature"
   }
 ]
