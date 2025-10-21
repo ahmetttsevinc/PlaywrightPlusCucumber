@@ -1,0 +1,16 @@
+{
+  "name": "playwright-plus-cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {"cucumber": "cucumber-js --config config/cucumber.js"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2"
+  }
+}

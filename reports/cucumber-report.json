@@ -1,0 +1,63 @@
+[
+  {
+    "description": "     Feature Login page will work depending on the user credentials.",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;sucess-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Sucess Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Web browser is at the Intradyn home page",
+            "match": {
+              "location": "src\\tests\\step-definitions\\login.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2836470799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks on \"Request a Quote\" button",
+            "match": {
+              "location": "src\\tests\\step-definitions\\login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38700799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User sees \"Request a Custom Quote\" text",
+            "match": {
+              "location": "src\\tests\\step-definitions\\login.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345607300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "src\\tests\\features\\login.feature"
+  }
+]
