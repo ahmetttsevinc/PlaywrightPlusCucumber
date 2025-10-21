@@ -15,11 +15,11 @@
             "line": 4,
             "name": "Web browser is at the Intradyn home page",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:7"
+              "location": "src/tests/step-definitions/common-actions.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 3364273500
+              "duration": 3657783666
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 5,
             "name": "User hovers over \"Why Intradyn\" link",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:31"
+              "location": "src/tests/step-definitions/common-actions.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 146055000
+              "duration": 156220333
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 6,
             "name": "User sees \"Company\" link",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:38"
+              "location": "src/tests/step-definitions/common-actions.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 10968600
+              "duration": 11475292
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 7,
             "name": "User clicks on \"Company\" link",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:24"
+              "location": "src/tests/step-definitions/common-actions.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 134473399
+              "duration": 146015875
             }
           },
           {
@@ -67,12 +67,12 @@
             "line": 8,
             "name": "User sees \"About Company\" text",
             "match": {
-              "location": "src\\tests\\step-definitions\\about-company.ts:9"
+              "location": "src/tests/step-definitions/about-company.ts:9"
             },
             "result": {
               "status": "failed",
-              "duration": 5007625499,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\ahmet\\Desktop\\Code\\PlaywrightPlusCucumber\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:608:17)\n    at processTimers (node:internal/timers:543:7)"
+              "duration": 5002119916,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/ahmetsevinc/Developer/Code/PlaywrightPlusCucumber/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:608:17)\n    at processTimers (node:internal/timers:543:7)"
             }
           },
           {
@@ -81,7 +81,7 @@
             "line": 9,
             "name": "Browser is closed",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:49"
+              "location": "src/tests/step-definitions/common-actions.ts:49"
             },
             "result": {
               "status": "skipped",
@@ -98,7 +98,7 @@
     "keyword": "Feature",
     "name": "About Company",
     "tags": [],
-    "uri": "src\\tests\\features\\about-company.feature"
+    "uri": "src/tests/features/about-company.feature"
   },
   {
     "description": "     This feature file validates Request a Quote functionality",
@@ -116,11 +116,11 @@
             "line": 4,
             "name": "Web browser is at the Intradyn home page",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:7"
+              "location": "src/tests/step-definitions/common-actions.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 3526498000
+              "duration": 3839323042
             }
           },
           {
@@ -129,11 +129,11 @@
             "line": 5,
             "name": "User clicks on \"Request a Quote\" button",
             "match": {
-              "location": "src\\tests\\step-definitions\\request-quote.ts:12"
+              "location": "src/tests/step-definitions/request-quote.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 343907699
+              "duration": 1649753749
             }
           },
           {
@@ -142,11 +142,11 @@
             "line": 6,
             "name": "User sees \"Request a Custom Quote\" text",
             "match": {
-              "location": "src\\tests\\step-definitions\\request-quote.ts:21"
+              "location": "src/tests/step-definitions/request-quote.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 3725300
+              "duration": 2718375
             }
           },
           {
@@ -155,11 +155,11 @@
             "line": 7,
             "name": "Browser is closed",
             "match": {
-              "location": "src\\tests\\step-definitions\\common-actions.ts:49"
+              "location": "src/tests/step-definitions/common-actions.ts:49"
             },
             "result": {
               "status": "passed",
-              "duration": 188399900
+              "duration": 152047957
             }
           }
         ],
@@ -172,6 +172,6 @@
     "keyword": "Feature",
     "name": "Request a Quote",
     "tags": [],
-    "uri": "src\\tests\\features\\request-quote.feature"
+    "uri": "src/tests/features/request-quote.feature"
   }
 ]
